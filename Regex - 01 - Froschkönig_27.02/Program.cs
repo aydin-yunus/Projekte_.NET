@@ -25,12 +25,14 @@ namespace Regex___01___Froschkönig_27._02
             //endPunkt.PunktEnde();
             //Endß endß = new Endß();
             //endß.EndWithß();
-            LeerZeile leerZeile = new LeerZeile();
-            leerZeile.LeereZeilen();
+            //LeerZeile leerZeile = new LeerZeile();
+            //leerZeile.LeereZeilen();
+            //Drei_Buchstabe drei_Buchstabe=new Drei_Buchstabe();
+            //drei_Buchstabe.DreiBuchstabe();
+            DerDieDas derDieDas = new DerDieDas();
+            derDieDas.Der_Die_Das();
 
             Console.ReadLine();
-
-
         }
 
     }
@@ -193,5 +195,46 @@ namespace Regex___01___Froschkönig_27._02
             }
         }
     }
-
+    class Drei_Buchstabe
+    {
+        public void DreiBuchstabe()
+        {
+            List<string> list_3buchstabe = new List<string>();
+            int zähler = 0;
+            int index = 0;
+            StreamReader sr = new StreamReader(@"D:\TestOrdner\Froschkönig Unix Zeilenumbrüche.txt");
+            while (!sr.EndOfStream)
+            {
+                index++;
+                string zeile = sr.ReadLine();
+                if (Regex.IsMatch(zeile, @"^\w{3}\b")) 
+                {
+                    list_3buchstabe.Add(zeile);
+                    zähler++;
+                    Console.WriteLine($"{zähler}- Index:{index} {zeile}");
+                }
+            }
+        }
+    }
+    class DerDieDas
+    {
+        public void Der_Die_Das()
+        {
+            List<string> list_der_die = new List<string>();
+            int zähler = 0;
+            int index = 0;
+            StreamReader sr = new StreamReader(@"D:\TestOrdner\Froschkönig Unix Zeilenumbrüche.txt");
+            while (!sr.EndOfStream)
+            {
+                index++;
+                string zeile = sr.ReadLine();
+                if (Regex.IsMatch(zeile, @"\b[dD](er|ie|as)\b"))
+                {
+                    list_der_die.Add(zeile);
+                    zähler++;
+                    Console.WriteLine($"{ zähler}- Index:{index} {zeile}");
+                }
+            }
+        }
+    }
 }
