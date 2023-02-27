@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{70B1CC91-6C41-488A-94EA-5FFD5DBF9085}</ProjectGuid>
+    <ProjectGuid>{CC422D95-673A-45FB-AF37-FB30C3A54F17}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Regex___01___Froschkönig</RootNamespace>
-    <AssemblyName>Regex - 01 - Froschkönig</AssemblyName>
+    <RootNamespace>Exceptions___01___Person_aamp__Datum</RootNamespace>
+    <AssemblyName>Exceptions - 01 - Person aamp, Datum</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Exceptions - 01 - Person aamp%3b Datum.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

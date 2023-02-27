@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Projekte_.NET")]
+[assembly: AssemblyTitle("Regex - 01 - Froschkönig_27.02")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("IT-Akademie Dr.Heuer GmbH")]
-[assembly: AssemblyProduct("Projekte_.NET")]
+[assembly: AssemblyProduct("Regex - 01 - Froschkönig_27.02")]
 [assembly: AssemblyCopyright("Copyright © IT-Akademie Dr.Heuer GmbH 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9dda9620-d42f-42fa-bcc2-cd9b4c25af8d")]
+[assembly: Guid("687307ce-6540-4f0e-ac4f-88218d887e8c")]
 
 // Version information for an assembly consists of the following four values:
 //
