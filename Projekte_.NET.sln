@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekte_.NET", "Projekte_.NET\Projekte_.NET.csproj", "{9DDA9620-D42F-42FA-BCC2-CD9B4C25AF8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex - 01 - Froschkönig", "Regex - 01 - Froschkönig\Regex - 01 - Froschkönig.csproj", "{70B1CC91-6C41-488A-94EA-5FFD5DBF9085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9DDA9620-D42F-42FA-BCC2-CD9B4C25AF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DDA9620-D42F-42FA-BCC2-CD9B4C25AF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DDA9620-D42F-42FA-BCC2-CD9B4C25AF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DDA9620-D42F-42FA-BCC2-CD9B4C25AF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B1CC91-6C41-488A-94EA-5FFD5DBF9085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B1CC91-6C41-488A-94EA-5FFD5DBF9085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B1CC91-6C41-488A-94EA-5FFD5DBF9085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B1CC91-6C41-488A-94EA-5FFD5DBF9085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
