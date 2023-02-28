@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex - 01 - Froschkönig_27.02", "Regex - 01 - Froschkönig_27.02\Regex - 01 - Froschkönig_27.02.csproj", "{687307CE-6540-4F0E-AC4F-88218D887E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions - 01 - Person aamp, Datum", "Exceptions - 01 - Person aamp, Datum\Exceptions - 01 - Person aamp, Datum.csproj", "{CC422D95-673A-45FB-AF37-FB30C3A54F17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions - 01 - Person aamp, Datum_27.02", "Exceptions - 01 - Person aamp, Datum\Exceptions - 01 - Person aamp, Datum_27.02.csproj", "{CC422D95-673A-45FB-AF37-FB30C3A54F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics - 01 - Flaschen_28.02", "Generics - 01 - Flaschen_28.02\Generics - 01 - Flaschen_28.02.csproj", "{3D833678-B2E7-49CE-8E88-4FB730EC9E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics - 02 - Warteschlange_28.02", "Generics - 02 - Warteschlange_28.02\Generics - 02 - Warteschlange_28.02.csproj", "{0B530BD7-0B93-467A-BC88-7FD2BFA908E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{CC422D95-673A-45FB-AF37-FB30C3A54F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC422D95-673A-45FB-AF37-FB30C3A54F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC422D95-673A-45FB-AF37-FB30C3A54F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D833678-B2E7-49CE-8E88-4FB730EC9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D833678-B2E7-49CE-8E88-4FB730EC9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D833678-B2E7-49CE-8E88-4FB730EC9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D833678-B2E7-49CE-8E88-4FB730EC9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B530BD7-0B93-467A-BC88-7FD2BFA908E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B530BD7-0B93-467A-BC88-7FD2BFA908E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B530BD7-0B93-467A-BC88-7FD2BFA908E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B530BD7-0B93-467A-BC88-7FD2BFA908E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
