@@ -6,29 +6,45 @@ using System.Threading.Tasks;
 
 namespace Generics___01___Flaschen_28._02
 {
-    internal class Flasche<T>
+    internal class Flasche<T> where T : Getränk
     {
-        public bool inhalt;
-        public bool IstLeer()
+        private T inhalt;
+
+        public bool IstLeer { get; set; }
+
+        public Flasche()
         {
-            if (inhalt==true)
+            this.IstLeer = true;
+        }
+
+        public void Füllen(T getränk)
+        {
+            if (this.IstLeer)
             {
-                return true;
-                
+                this.inhalt = getränk;
+                this.IstLeer = false;
             }
-            else { return false; }
+            else
+            {
+                Console.WriteLine("Flasche ist voll. Gefüllt mit " + getränk.GetType().Name);
+            }
         }
-        public void Füllen()
+
+        public T Leeren()
         {
-            inhalt = true;
-            Console.WriteLine("Flasche ist voll");
+            if (this.IstLeer == false)
+            {
+                T flaschenInhalt = inhalt;      // Inhalt zwischenspeichern
+                this.inhalt = default(T);       // Inhalt zurücksetzen
+                this.IstLeer = true;
+                return flaschenInhalt;          // Inhalt zurückliefern
+            }
+            else
+            {
+                return default(T);              // Flasche ist bereits leer, dann Standard-Wert des Datentypen zurückliefern
+            }
         }
-        public void Leeren()
-        {
-            inhalt= false;
-            Console.WriteLine("Flasche ist leer");
-        }
-        
+
     }
 
 }

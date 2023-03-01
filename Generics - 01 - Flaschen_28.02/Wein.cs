@@ -8,12 +8,17 @@ namespace Generics___01___Flaschen_28._02
 {
     internal class Wein:Getränk
     {
-        protected string herkunft;
-        
-        public Wein(string herkunft, string name):base(name)
+        public string Herkunft { get; set; }
+
+        public Wein(string name, string herkunft)
+            : base(name)
         {
-            this.herkunft = herkunft;
-            
+            this.Herkunft = herkunft;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", name, Herkunft);
         }
     }
 }

@@ -8,9 +8,9 @@ namespace Generics___01___Flaschen_28._02
 {
     internal class Rotwein:Wein
     {
-        public Rotwein(string herkunft,string land):base(herkunft,land)
+        public Rotwein(string name, string herkunft)
+             : base(name, herkunft)
         {
-
         }
     }
 }

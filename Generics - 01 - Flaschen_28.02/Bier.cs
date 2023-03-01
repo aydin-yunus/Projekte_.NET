@@ -11,11 +11,15 @@ namespace Generics___01___Flaschen_28._02
     {
         public string Brauerei { get; set; }
 
-        public string brauerei { get=>brauerei; set=>value=brauerei; }
-        public Bier(string brauerei, string name):base(name)
+        public Bier(string name, string brauerei)
+            : base(name)
         {
             this.Brauerei = brauerei;
-            
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", name, Brauerei);
         }
 
     }

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Generics___01___Flaschen_28._02
 {
-    internal class Getränk
+    abstract class Getränk
     {
-        public string name;
+        protected string name;
+
         public Getränk(string name)
         {
             this.name = name;

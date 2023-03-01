@@ -6,14 +6,29 @@ using System.Threading.Tasks;
 
 namespace Generics___02___Warteschlange_28._02
 {
-    internal class Entry:GenericLinkedQueue<Entry>
+    internal class Entry
     {
-        private Entry head;
-        private Entry tail;
-        
-        public Entry(Entry head, Entry tail):base (head, tail) 
+        private string data;
+        private Entry next;
+
+        public Entry(string data)
         {
-            
+            this.data = data;
         }
-    }
+
+        public void SetNext(Entry next)
+        {
+            this.next = next;
+        }
+
+        public string GetData()
+        {
+            return this.data;
+        }
+
+        public Entry GetNext()
+        {
+            return this.next;
+        }
+    }   
 }
