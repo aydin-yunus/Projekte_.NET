@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CD3BD89-A037-4548-BAD9-9A2C2D05BA43}</ProjectGuid>
+    <ProjectGuid>{87B6C41C-AA19-48E5-8F44-9565BB167923}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Collections_01_Stacks_Kommando_tac_aamp_Klammersetzung_01._03</RootNamespace>
-    <AssemblyName>Collections_01_Stacks_Kommando tac aamp_Klammersetzung_01.03</AssemblyName>
+    <RootNamespace>Delegates___01___Gross_Klein_02._03</RootNamespace>
+    <AssemblyName>Delegates - 01 - Gross-Klein_02.03</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lösung.cs" />
+    <Compile Include="Character.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Collections - 01 - Stacks - Kommando tac aamp%3b Klammersetzung.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CD3BD89-A037-4548-BAD9-9A2C2D05BA43}</ProjectGuid>
+    <ProjectGuid>{8D10E66E-B8C5-43B3-8EF7-D8E48EAD8E11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Collections_01_Stacks_Kommando_tac_aamp_Klammersetzung_01._03</RootNamespace>
-    <AssemblyName>Collections_01_Stacks_Kommando tac aamp_Klammersetzung_01.03</AssemblyName>
+    <RootNamespace>Collections___02___Dictionary___Worthaeufigkeit_02._03</RootNamespace>
+    <AssemblyName>Collections - 02 - Dictionary - Worthaeufigkeit_02.03</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Collections - 01 - Stacks - Kommando tac aamp%3b Klammersetzung.pdf" />
+    <None Include="Collections - 02 - Dictionary - Worthaeufigkeit.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
