@@ -11,11 +11,12 @@ namespace Collections_01_Stacks_Kommando_tac_aamp_Klammersetzung_01._03
     {
         static void Main(string[] args)
         {
-            Tac($"D:\\TestOrdner\\Personen.txt");
+            //Tac($"D:\\TestOrdner\\Personen.txt");
 
-            string berechnung = " (3+6)*((7-4)+ 9)";
+            string berechnung = " 3+6*((7-4)+ 9)";
 
             PrüfeKlammerSetzung(berechnung);
+            Console.ReadKey();
         }
         private static void Tac(string pfad)
         {
