@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87B6C41C-AA19-48E5-8F44-9565BB167923}</ProjectGuid>
+    <ProjectGuid>{5319C0C4-796C-4EDE-B2F5-B73E329AA38B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Delegates___01___Gross_Klein_02._03</RootNamespace>
-    <AssemblyName>Delegates - 01 - Gross-Klein_02.03</AssemblyName>
+    <RootNamespace>Delegates___03___Logger_03._03</RootNamespace>
+    <AssemblyName>Delegates - 03 - Logger_03.03</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Character.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Delegates - 01 - Gross-Klein.pdf" />
+    <None Include="Delegates - 03 - Logger.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

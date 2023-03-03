@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87B6C41C-AA19-48E5-8F44-9565BB167923}</ProjectGuid>
+    <ProjectGuid>{0E518240-7B41-412C-A101-A1AE51664C69}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Delegates___01___Gross_Klein_02._03</RootNamespace>
-    <AssemblyName>Delegates - 01 - Gross-Klein_02.03</AssemblyName>
+    <RootNamespace>Events___02___Beobachter_am_Fluss_03._03</RootNamespace>
+    <AssemblyName>Events - 02 - Beobachter am Fluss_03.03</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Character.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Delegates - 01 - Gross-Klein.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

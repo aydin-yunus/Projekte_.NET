@@ -11,17 +11,15 @@ namespace Delegates___02___Array_Min_Max_02._03
         delegate bool VergleichsHandler(int a, int b);
         static void Main(string[] args)
         {
-            int[] zahlen = { 10, 15, 38, 11, 24,1254, 3, 345, 451, 2, 121 };
-            VergleichsHandler größte = new VergleichsHandler(IstGrösser);
-            VergleichsHandler kleinste=new VergleichsHandler(IstKleiner);
-            Console.WriteLine("Zahlen");
-            foreach (var item in zahlen)
-            {
-                Console.Write($"{item} ");
-            }
+            int[] zahlen =new int[10];
+            Zufall(zahlen);
+            VergleichsHandler vhGrößte = new VergleichsHandler(IstGrösser);
+            VergleichsHandler vhKleinste=new VergleichsHandler(IstKleiner);
+            //Zufall(zahlen);
+
             Console.WriteLine();
-            GetLimit(zahlen, größte );
-            GetLimit(zahlen, kleinste);
+            GetLimit(zahlen, vhGrößte);
+            GetLimit(zahlen, vhKleinste);
 
         }
         private static void GetLimit(int[] zahlen, VergleichsHandler kleinOderGross)
@@ -38,37 +36,54 @@ namespace Delegates___02___Array_Min_Max_02._03
                 }
             }
             Console.WriteLine($"\nIndex: {index} / Prozess: {kleinOderGross.Method.Name}");
-
         }
-        private static void MaxLimit(int[] zahlen)
+       
+        private static void Zufall(int[] zahlen)
         {
-            int max = zahlen[0];
-            int index = 0;
-            for(int i = 1; i < zahlen.Length; i++)
+            int zahl;
+            Random random = new Random();
+            for (int i = 0; i < zahlen.Length; i++)
             {
-                if (IstGrösser(zahlen[i],max))
-                {
-                    max = zahlen[i];
-                    index = i;
-                }
+                zahl=random.Next(1,1000);
+                zahlen[i] = zahl;
+                Console.WriteLine(zahl);
             }
-            Console.WriteLine(index);
         }
+        /// <summary>
+        /// /Hoca koymus ama gerek yok, ayni islemi GetLimit() fonksiyonu icinde de yapiyoruz
+        /// </summary>
+        /// 
+        //private static void MaxLimit(int[] zahlen)
+        //{
+        //    int max = zahlen[0];
+        //    int index = 0;
+        //    for (int i = 1; i < zahlen.Length; i++)
+        //    {
+        //        if (IstGrösser(zahlen[i], max))
+        //        {
+        //            max = zahlen[i];
+        //            index = i;
+        //        }
+        //    }
+        //    Console.WriteLine(index);
+        //}
 
-        private static void MinLimit(int[] zahlen)
-        {
-            int min = zahlen[0];
-            int index = 0;
-            for (int i = 1; i < zahlen.Length; i++)
-            {
-                if (IstKleiner(zahlen[i], min))
-                {
-                    min = zahlen[i];
-                    index = i;
-                }
-            }
-            Console.WriteLine(index);
-        }
+
+
+        //private static void MinLimit(int[] zahlen)
+        //{
+        //    int min = zahlen[0];
+        //    int index = 0;
+        //    for (int i = 1; i < zahlen.Length; i++)
+        //    {
+        //        if (IstKleiner(zahlen[i], min))
+        //        {
+        //            min = zahlen[i];
+        //            index = i;
+        //        }
+        //    }
+        //    Console.WriteLine(index);
+        //}
 
         private static bool IstKleiner(int a, int b)
         {
