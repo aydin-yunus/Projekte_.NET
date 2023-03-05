@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Events___02___Beobachter_am_Fluss_03._03
 {
-    internal class Program
+    internal class Stadt //: IBeobachter
     {
-        static void Main(string[] args)
+        public void WasserStandÄnderung(int wasserstand)
         {
-            Fluss Rhein=new Fluss("Rhein",100);
-            
-            Console.ReadKey();
+            throw new NotImplementedException();
         }
     }
 }

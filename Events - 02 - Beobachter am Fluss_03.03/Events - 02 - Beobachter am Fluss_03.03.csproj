@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBeobachter.cs" />
+    <Compile Include="Klärwerk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Fluss.cs" />
+    <Compile Include="Schiff.cs" />
+    <Compile Include="Stadt.cs" />
+    <Compile Include="WasserStandEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Events - 02 - Beobachter am Fluss.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

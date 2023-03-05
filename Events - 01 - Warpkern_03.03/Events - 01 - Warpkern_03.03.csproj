@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WarpKern.cs" />
+    <Compile Include="WarpKernEventArgs.cs" />
+    <Compile Include="WarpKernKonsole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

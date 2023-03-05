@@ -20,6 +20,7 @@ namespace Delegates___02___Array_Min_Max_02._03
             Console.WriteLine();
             GetLimit(zahlen, vhGrößte);
             GetLimit(zahlen, vhKleinste);
+            Console.ReadKey();
 
         }
         private static void GetLimit(int[] zahlen, VergleichsHandler kleinOderGross)
@@ -37,7 +38,7 @@ namespace Delegates___02___Array_Min_Max_02._03
             }
             Console.WriteLine($"\nIndex: {index} / Prozess: {kleinOderGross.Method.Name}");
         }
-       
+
         private static void Zufall(int[] zahlen)
         {
             int zahl;
@@ -46,7 +47,7 @@ namespace Delegates___02___Array_Min_Max_02._03
             {
                 zahl=random.Next(1,1000);
                 zahlen[i] = zahl;
-                Console.WriteLine(zahl);
+                Console.Write($"{zahl}  ");
             }
         }
         /// <summary>
