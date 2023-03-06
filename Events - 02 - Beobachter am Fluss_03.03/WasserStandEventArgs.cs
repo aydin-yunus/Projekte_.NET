@@ -8,12 +8,12 @@ namespace Events___02___Beobachter_am_Fluss_03._03
 {
     class WasserStandEventArgs:EventArgs
     {
-        public int AlterWasserStand { get;  }
-        public int NeueWasserStand { get; }
-        public WasserStandEventArgs(int alteWasserStand, int neueWasserStand)
+        public int WasserStand { get;  }
+
+        public WasserStandEventArgs(int stand)
         {
-            AlterWasserStand = alteWasserStand;
-            NeueWasserStand = neueWasserStand;
+            
+            WasserStand = stand;
         }
 
     }

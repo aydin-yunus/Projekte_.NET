@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events - 01 - Warpkern_03.0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events - 02 - Beobachter am Fluss_03.03", "Events - 02 - Beobachter am Fluss_03.03\Events - 02 - Beobachter am Fluss_03.03.csproj", "{0E518240-7B41-412C-A101-A1AE51664C69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polindrom_06.03", "Polindrom_06.03\Polindrom_06.03.csproj", "{F59F612C-70C3-40B1-B0CC-3BD5E69B479C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 01 - Filter-Operationen aamp; Aggregationen_06.03.23", "LINQ - 01 - Filter-Operationen aamp; Aggregationen_06.03.23\LINQ - 01 - Filter-Operationen aamp; Aggregationen_06.03.23.csproj", "{C7210456-4ACC-4C8F-85A8-30DC00F43900}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{0E518240-7B41-412C-A101-A1AE51664C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E518240-7B41-412C-A101-A1AE51664C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E518240-7B41-412C-A101-A1AE51664C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59F612C-70C3-40B1-B0CC-3BD5E69B479C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59F612C-70C3-40B1-B0CC-3BD5E69B479C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59F612C-70C3-40B1-B0CC-3BD5E69B479C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59F612C-70C3-40B1-B0CC-3BD5E69B479C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

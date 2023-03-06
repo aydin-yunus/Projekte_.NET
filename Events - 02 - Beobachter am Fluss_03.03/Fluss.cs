@@ -12,7 +12,7 @@ namespace Events___02___Beobachter_am_Fluss_03._03
     {
         public event WasserStandEventHandler WasserStandÄnderung;
         public event WasserStandEventHandler WasserStandKritisch;
-        public string Name { get; }
+        public string Name { get; set; }
         private int wasserStand;
         public int WasserStand 
         {   
