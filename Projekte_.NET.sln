@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polindrom_06.03", "Polindro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 01 - Filter-Operationen aamp; Aggregationen_06.03.23", "LINQ - 01 - Filter-Operationen aamp; Aggregationen_06.03.23\LINQ - 01 - Filter-Operationen aamp; Aggregationen_06.03.23.csproj", "{C7210456-4ACC-4C8F-85A8-30DC00F43900}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 02 - Sortieren aamp; Partitionieren_07.03.23", "LINQ - 02 - Sortieren aamp; Partitionieren_07.03.23\LINQ - 02 - Sortieren aamp; Partitionieren_07.03.23.csproj", "{82A7CF5D-B891-4232-9FC5-5F57D963C067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7210456-4ACC-4C8F-85A8-30DC00F43900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A7CF5D-B891-4232-9FC5-5F57D963C067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A7CF5D-B891-4232-9FC5-5F57D963C067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A7CF5D-B891-4232-9FC5-5F57D963C067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A7CF5D-B891-4232-9FC5-5F57D963C067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
