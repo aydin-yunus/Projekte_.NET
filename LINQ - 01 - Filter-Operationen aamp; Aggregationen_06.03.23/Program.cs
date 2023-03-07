@@ -48,10 +48,10 @@ namespace LINQ___01___Filter_Operationen_aamp__Aggregationen_06._03._23
             //}
             //Console.WriteLine("********************");
 
-            //int[] geradeAbSechs=numbers.Skip(6).ToArray();
+            //int[] geradeAbSechs = numbers.Skip(5).ToArray();
             //foreach (int item in geradeAbSechs)
             //{
-            //    Console.Write(item+" ");
+            //    Console.Write(item + " ");
             //}
             //Console.WriteLine("\n********************");
             #endregion
@@ -112,8 +112,8 @@ namespace LINQ___01___Filter_Operationen_aamp__Aggregationen_06._03._23
             //var summeGerade=numbers.Where(x => x%2==0);
             //Console.WriteLine(summeGerade.Sum());
 
-            var ungeradeDurcschnitt = numbers.Where(x => x % 2 != 0);
-            Console.WriteLine(ungeradeDurcschnitt.Average());
+            var ungeradeDurcschnitt = numbers.Where(x => x % 2 != 0).Average();
+            Console.WriteLine(ungeradeDurcschnitt);
 
 
             #endregion

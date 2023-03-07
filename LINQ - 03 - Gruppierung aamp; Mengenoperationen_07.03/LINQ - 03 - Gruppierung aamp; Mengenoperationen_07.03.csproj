@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7210456-4ACC-4C8F-85A8-30DC00F43900}</ProjectGuid>
+    <ProjectGuid>{E104E44C-3EDE-497F-A499-BEB49669510A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LINQ___01___Filter_Operationen_aamp__Aggregationen_06._03._23</RootNamespace>
-    <AssemblyName>LINQ - 01 - Filter-Operationen aamp%3b Aggregationen_06.03.23</AssemblyName>
+    <RootNamespace>LINQ___03___Gruppierung_aamp__Mengenoperationen_07._03</RootNamespace>
+    <AssemblyName>LINQ - 03 - Gruppierung aamp%3b Mengenoperationen_07.03</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="LINQ - 01 - Filter-Operationen aamp%3b Aggregationen.pdf" />
+    <None Include="LINQ - 03 - Gruppierung aamp%3b Mengenoperationen.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
