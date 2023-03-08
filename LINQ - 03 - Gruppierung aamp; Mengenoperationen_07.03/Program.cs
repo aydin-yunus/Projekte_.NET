@@ -19,23 +19,6 @@ namespace LINQ___03___Gruppierung_aamp__Mengenoperationen_07._03
             Console.ReadKey();
         }
 
-        private static void Self()
-        {
-            string[] numbers = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen" };
-            var wörterGruppen = numbers.GroupBy(
-                wort => wort[0],
-                wort => wort,
-                (buchstabe, dieWörter) => new
-                {
-                    AnfangBuchstabe = buchstabe,
-                    Wörter = dieWörter
-                });
-            foreach (var item in wörterGruppen)
-            {
-
-            }
-        }
-
 
         private static void Teil1()
         {

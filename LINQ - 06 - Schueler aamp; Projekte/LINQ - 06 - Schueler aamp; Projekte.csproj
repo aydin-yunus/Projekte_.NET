@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77E2695F-8544-4045-8CB3-0FB2E8687FA7}</ProjectGuid>
+    <ProjectGuid>{9A022412-9353-479D-9D28-932A5880B261}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LINQ___04___Durchschnitt_von_Kategorien_07._03</RootNamespace>
-    <AssemblyName>LINQ - 04 - Durchschnitt von Kategorien_07.03</AssemblyName>
+    <RootNamespace>LINQ___06___Schueler_aamp__Projekte</RootNamespace>
+    <AssemblyName>LINQ - 06 - Schueler aamp%3b Projekte</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Produkt.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pupil.cs" />
+    <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="LINQ - 04 - Durchschnitt von Kategorien.pdf" />
+    <None Include="LINQ - 06 - Schueler aamp%3b Projekte.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Produkte.txt" />
+    <Content Include="Projekte.txt" />
+    <Content Include="Schueler.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
