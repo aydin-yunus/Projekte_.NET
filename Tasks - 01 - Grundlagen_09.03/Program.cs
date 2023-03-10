@@ -14,7 +14,7 @@ internal class Program
         task2.Start();
         task3.Start();
         Console.ReadLine();
-    }
+    } 
     public static void Arbeit(object param)
     {
         string pfad = (string)param; 
