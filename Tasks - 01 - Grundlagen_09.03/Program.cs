@@ -41,7 +41,7 @@ internal class Program
                         }
                     }
                 }
-            }
+            }  
            
             using (StreamWriter sw = new StreamWriter(pfad + ".json"))
             {
