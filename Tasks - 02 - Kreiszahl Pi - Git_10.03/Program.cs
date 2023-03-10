@@ -20,7 +20,7 @@ namespace Tasks___02___Kreiszahl_Pi___Git_10._03
                 tasks[i-1] = Task.Factory.StartNew(() => { return PI_Berechnung(i, anzahlAufrufe); });
             }
             Task.WaitAll(tasks);
-            pi = tasks.Sum(t => t.Result);
+            pi = tasks.Sum(t => t.Result);//bunu hoca ekledi, ben düsünemedim
             ////Osmanin cözüm
             //Task<double> task1 = Task.Run(() => PI_Berechnung(1, anzahlAufrufe));
             //Task<double> task2 = Task.Run(() => PI_Berechnung(2, anzahlAufrufe));
