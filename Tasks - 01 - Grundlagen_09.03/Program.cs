@@ -11,7 +11,7 @@ internal class Program
         Task task2 = new Task(Arbeit, pfad2);
         Task task3 = new Task(Arbeit, pfad3);
         task1.Start();
-        task2.Start();
+        task2.Start(); 
         task3.Start();
         Console.ReadLine();
     } 
