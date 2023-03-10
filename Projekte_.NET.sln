@@ -39,17 +39,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 03 - Gruppierung aam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 04 - Durchschnitt von Kategorien_07.03", "LINQ - 04 - Durchschnitt von Kategorien_07.03\LINQ - 04 - Durchschnitt von Kategorien_07.03.csproj", "{77E2695F-8544-4045-8CB3-0FB2E8687FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 06 - Schueler aamp; Projekte_08.03", "LINQ - 06 - Schueler aamp; Projekte\LINQ - 06 - Schueler aamp; Projekte_08.03.csproj", "{9A022412-9353-479D-9D28-932A5880B261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung - 02 - Classroom_09.03", "Serialisierung - 02 - Classroom_09.03\Serialisierung - 02 - Classroom_09.03.csproj", "{4B391B50-2AB3-4198-98ED-BBA2C5101BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Produkte_08.03", "Produkte_08.03\JSON_Produkte_08.03.csproj", "{BAB4A2B4-5F12-4840-B259-39D566A24999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung - 03 - FizzBuzz_09.03", "Serialisierung - 03 - FizzBuzz_09.03\Serialisierung - 03 - FizzBuzz_09.03.csproj", "{4534D294-1070-4251-8DF7-2001DA2AC489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung - 02 - Classroom_09.03", "Serialisierung - 02 - Classroom_09.03\Serialisierung - 02 - Classroom_09.03.csproj", "{4B391B50-2AB3-4198-98ED-BBA2C5101BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFrequencyFSW_07.03", "WordFrequencyFSW_07.03\WordFrequencyFSW_07.03.csproj", "{E88E861F-6FFF-419C-8AAE-AA334EF73FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung - 03 - FizzBuzz_09.03", "Serialisierung - 03 - FizzBuzz_09.03\Serialisierung - 03 - FizzBuzz_09.03.csproj", "{4534D294-1070-4251-8DF7-2001DA2AC489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 01 - Grundlagen_09.03", "Tasks - 01 - Grundlagen_09.03\Tasks - 01 - Grundlagen_09.03.csproj", "{417F5EAF-0F33-4020-A19B-D4FA6858BC7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFrequencyFSW_07.03", "WordFrequencyFSW_07.03\WordFrequencyFSW_07.03.csproj", "{E88E861F-6FFF-419C-8AAE-AA334EF73FB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 06 - Schüler und Projekte_08.03", "LINQ - 06 - Schüler und Projekte_08.03\LINQ - 06 - Schüler und Projekte_08.03.csproj", "{5F2BC72B-144C-40A3-95D8-6B70DAE0DAAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks - 01 - Grundlagen_09.03", "Tasks - 01 - Grundlagen_09.03\Tasks - 01 - Grundlagen_09.03.csproj", "{417F5EAF-0F33-4020-A19B-D4FA6858BC7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks_Bitmap_10.03", "Tasks_Bitmap_10.03\Tasks_Bitmap_10.03.csproj", "{926DF852-B5F0-43D2-8886-79E4C696B044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,11 +129,6 @@ Global
 		{77E2695F-8544-4045-8CB3-0FB2E8687FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E2695F-8544-4045-8CB3-0FB2E8687FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E2695F-8544-4045-8CB3-0FB2E8687FA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A022412-9353-479D-9D28-932A5880B261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A022412-9353-479D-9D28-932A5880B261}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A022412-9353-479D-9D28-932A5880B261}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A022412-9353-479D-9D28-932A5880B261}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{4B391B50-2AB3-4198-98ED-BBA2C5101BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4B391B50-2AB3-4198-98ED-BBA2C5101BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B391B50-2AB3-4198-98ED-BBA2C5101BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -150,12 +145,14 @@ Global
 		{417F5EAF-0F33-4020-A19B-D4FA6858BC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{417F5EAF-0F33-4020-A19B-D4FA6858BC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{417F5EAF-0F33-4020-A19B-D4FA6858BC7A}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{BAB4A2B4-5F12-4840-B259-39D566A24999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAB4A2B4-5F12-4840-B259-39D566A24999}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAB4A2B4-5F12-4840-B259-39D566A24999}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAB4A2B4-5F12-4840-B259-39D566A24999}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 1af9f3c2ec3f137e83604e7eb10bff79db709459
+		{5F2BC72B-144C-40A3-95D8-6B70DAE0DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2BC72B-144C-40A3-95D8-6B70DAE0DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2BC72B-144C-40A3-95D8-6B70DAE0DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2BC72B-144C-40A3-95D8-6B70DAE0DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926DF852-B5F0-43D2-8886-79E4C696B044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926DF852-B5F0-43D2-8886-79E4C696B044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926DF852-B5F0-43D2-8886-79E4C696B044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926DF852-B5F0-43D2-8886-79E4C696B044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
