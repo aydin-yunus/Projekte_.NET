@@ -17,23 +17,23 @@ namespace Regex___01___Froschkönig_27._02
             //umlaut_Find.Read_Find();
             //der_Anfange der_Anfange = new der_Anfange();
             //der_Anfange.der_Finder();
-            //Groß_Buchstabe groß = new Groß_Buchstabe();
-            //groß.GroßBuchstabe();
+            Groß_Buchstabe groß = new Groß_Buchstabe();
+            groß.GroßBuchstabe();
             //Frosch frosch = new Frosch();
             //frosch.Frosch_Froschkönig();
             //EndPunkt endPunkt = new EndPunkt();
             //endPunkt.PunktEnde();
             //Endß endß = new Endß();
             //endß.EndWithß();
-            //LeerZeile leerZeile = new LeerZeile();
+            //LeerZeile leerZeile   = new LeerZeile();
             //leerZeile.LeereZeilen();
             //Drei_Buchstabe drei_Buchstabe=new Drei_Buchstabe();
             //drei_Buchstabe.DreiBuchstabe();
 
 
 
-            DerDieDas derDieDas = new DerDieDas();
-            derDieDas.Der_Die_Das();
+            //DerDieDas derDieDas = new DerDieDas();
+            //derDieDas.Der_Die_Das();
 
             Console.ReadLine();
         }
@@ -45,16 +45,18 @@ namespace Regex___01___Froschkönig_27._02
         {
             List<string> list = new List<string>();
             int index = 0;
+            int zähler = 0;
             string path = "D:\\TestOrdner\\Froschkönig Unix Zeilenumbrüche.txt";
             StreamReader sr = new StreamReader(path);
             while (!sr.EndOfStream)
             {
+                index++;
                 string zeile = sr.ReadLine();
                 if (Regex.IsMatch(zeile, @"[ÄÜÖäüö]"))
                 {
                     list.Add(zeile);
-                    index++;
-                    Console.WriteLine($"{index}: {zeile}");
+                    zähler++;
+                    Console.WriteLine($"{zähler}- Index:{index} {zeile}");
                 }
             }
 
@@ -74,17 +76,19 @@ namespace Regex___01___Froschkönig_27._02
         {
             List<string> list = new List<string>();
             int index = 0;
+            int zähler = 0;
             string path = "D:\\TestOrdner\\Froschkönig Unix Zeilenumbrüche.txt";
             StreamReader sr = new StreamReader(path);
             while (!sr.EndOfStream)
             {
+                index++;
                 string zeile = sr.ReadLine();
                 //List<string> words = new List <string>(zeile.Split(' '));//Kelimeleri ayirmaya calismistim ama gerek yok...
                 if (Regex.IsMatch(zeile, @"\b[Dd]er\b"))
                 {
                     list.Add(zeile);
-                    index++;
-                    Console.WriteLine($"{index}: {zeile}");
+                    zähler++;
+                    Console.WriteLine($"{zähler}- Index:{index} {zeile}");
                 }
             }
 

@@ -2,6 +2,7 @@
 using System.Drawing;
 
 
+
 namespace Tasks___03___Factorial_10._03
 {
     internal class Program
