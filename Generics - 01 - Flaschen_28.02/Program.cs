@@ -34,6 +34,8 @@ namespace Generics___01___Flaschen_28._02
             Console.WriteLine(rotweinFlasche.Leeren());
             Console.WriteLine(weißweinFlasche.Leeren());
 
+            Console.ReadKey();
+
 
         }
     }
