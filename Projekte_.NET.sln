@@ -49,11 +49,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 01 - Grundlagen_09.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 06 - Schüler und Projekte_08.03", "LINQ - 06 - Schüler und Projekte_08.03\LINQ - 06 - Schüler und Projekte_08.03.csproj", "{5F2BC72B-144C-40A3-95D8-6B70DAE0DAAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks - 02 - Bitmap_10.03", "Tasks_Bitmap_10.03\Tasks - 02 - Bitmap_10.03.csproj", "{926DF852-B5F0-43D2-8886-79E4C696B044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 02 - Bitmap_10.03", "Tasks_Bitmap_10.03\Tasks - 02 - Bitmap_10.03.csproj", "{926DF852-B5F0-43D2-8886-79E4C696B044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks - 03 - Factorial_10.03", "Tasks - 03 - Factorial_10.03\Tasks - 03 - Factorial_10.03.csproj", "{A3DB9D86-7DF9-4811-93C1-E2D9101264B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 03 - Factorial_10.03", "Tasks - 03 - Factorial_10.03\Tasks - 03 - Factorial_10.03.csproj", "{A3DB9D86-7DF9-4811-93C1-E2D9101264B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks - 02 - Kreiszahl Pi - Git_10.03", "Tasks - 02 - Kreiszahl Pi - Git_10.03\Tasks - 02 - Kreiszahl Pi - Git_10.03.csproj", "{626C12FE-123B-49AC-B2F6-29A3E47F6BAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 02 - Kreiszahl Pi - Git_10.03", "Tasks - 02 - Kreiszahl Pi - Git_10.03\Tasks - 02 - Kreiszahl Pi - Git_10.03.csproj", "{626C12FE-123B-49AC-B2F6-29A3E47F6BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe - Haus des Nikolaus_13.03", "Aufgabe - Haus des Nikolaus_10.03\Aufgabe - Haus des Nikolaus_13.03.csproj", "{83B55781-F0D5-4A37-AA10-3319FDDCEF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks - 06 - Parallel Foreach - Dateisuche_13.03", "Tasks - 06 - Parallel Foreach - Dateisuche_13.03\Tasks - 06 - Parallel Foreach - Dateisuche_13.03.csproj", "{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms_web-sites_13.03", "WindowsForms_web-sites_13.03\WindowsForms_web-sites_13.03.csproj", "{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{626C12FE-123B-49AC-B2F6-29A3E47F6BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{626C12FE-123B-49AC-B2F6-29A3E47F6BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{626C12FE-123B-49AC-B2F6-29A3E47F6BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B55781-F0D5-4A37-AA10-3319FDDCEF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B55781-F0D5-4A37-AA10-3319FDDCEF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B55781-F0D5-4A37-AA10-3319FDDCEF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B55781-F0D5-4A37-AA10-3319FDDCEF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

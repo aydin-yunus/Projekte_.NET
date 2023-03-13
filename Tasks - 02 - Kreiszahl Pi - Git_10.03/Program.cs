@@ -14,6 +14,7 @@ namespace Tasks___02___Kreiszahl_Pi___Git_10._03
             Task<double>[] tasks = new Task<double>[anzahlAufrufe];
            
             sw.Start();
+
             ////benim cözümüm
             for (int i = 1; i < anzahlAufrufe + 1; i++)
             {
