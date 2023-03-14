@@ -27,12 +27,12 @@ namespace WindowsForms_web_sites_13._03
         private void öffnenToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            DialogResult result = ofdDateiÖffnen.ShowDialog();
+            DialogResult result = ofdDateiÖffnen.ShowDialog(); //kayitli dosyadaki verilerin web adresi tam yazili olmali
 
             if (result == DialogResult.OK)
             {
                 dateiName = ofdDateiÖffnen.FileName;
-                textBox1.Text = File.ReadAllText(dateiName);
+                textBox1.Text =File.ReadAllText(dateiName);
             }
             else
             {

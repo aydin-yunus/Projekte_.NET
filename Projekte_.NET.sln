@@ -55,11 +55,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 03 - Factorial_10.0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 02 - Kreiszahl Pi - Git_10.03", "Tasks - 02 - Kreiszahl Pi - Git_10.03\Tasks - 02 - Kreiszahl Pi - Git_10.03.csproj", "{626C12FE-123B-49AC-B2F6-29A3E47F6BAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe - Haus des Nikolaus_13.03", "Aufgabe - Haus des Nikolaus_10.03\Aufgabe - Haus des Nikolaus_13.03.csproj", "{83B55781-F0D5-4A37-AA10-3319FDDCEF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aufgabe - Haus des Nikolaus_13.03", "Aufgabe - Haus des Nikolaus_10.03\Aufgabe - Haus des Nikolaus_13.03.csproj", "{83B55781-F0D5-4A37-AA10-3319FDDCEF77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks - 06 - Parallel Foreach - Dateisuche_13.03", "Tasks - 06 - Parallel Foreach - Dateisuche_13.03\Tasks - 06 - Parallel Foreach - Dateisuche_13.03.csproj", "{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks - 06 - Parallel Foreach - Dateisuche_13.03", "Tasks - 06 - Parallel Foreach - Dateisuche_13.03\Tasks - 06 - Parallel Foreach - Dateisuche_13.03.csproj", "{BE729C64-79B2-43FF-BA03-4CD8F61FFA8D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms_web-sites_13.03", "WindowsForms_web-sites_13.03\WindowsForms_web-sites_13.03.csproj", "{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms_Async_14.03", "WindowsForms_Async_14.03\WindowsForms_Async_14.03.csproj", "{355FC704-F2A5-4888-83DA-6103BE3D0044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async - 02 - Favicons_14.03", "Threading_FavIconBrowser\Threading_FavIconBrowser\Async - 02 - Favicons_14.03.csproj", "{C211C18A-9BA6-4994-AA6C-DDF939BB326C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenderizeIOForm_14.03", "GenderizeIOForm_14.03\GenderizeIOForm_14.03.csproj", "{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +189,18 @@ Global
 		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBB2B0C-660D-437E-B3AE-794AFAD823D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355FC704-F2A5-4888-83DA-6103BE3D0044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355FC704-F2A5-4888-83DA-6103BE3D0044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355FC704-F2A5-4888-83DA-6103BE3D0044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355FC704-F2A5-4888-83DA-6103BE3D0044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C211C18A-9BA6-4994-AA6C-DDF939BB326C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C211C18A-9BA6-4994-AA6C-DDF939BB326C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C211C18A-9BA6-4994-AA6C-DDF939BB326C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C211C18A-9BA6-4994-AA6C-DDF939BB326C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
