@@ -67,6 +67,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async - 02 - Favicons_14.03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenderizeIOForm_14.03", "GenderizeIOForm_14.03\GenderizeIOForm_14.03.csproj", "{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services - 01 - Feiertage_15.03", "Services - 01 - Feiertage_15.03\Services - 01 - Feiertage_15.03.csproj", "{663803EE-D94F-462A-B816-560DC4096E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tupel - 01 - Grundlagen_15.03", "Tupel - 01 - Grundlagen_15.03\Tupel - 01 - Grundlagen_15.03.csproj", "{D65166FA-41BA-4958-9864-EA76DE12003A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,14 @@ Global
 		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2492AB5D-D8AC-48F2-8B51-BCE29D65EF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663803EE-D94F-462A-B816-560DC4096E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663803EE-D94F-462A-B816-560DC4096E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663803EE-D94F-462A-B816-560DC4096E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663803EE-D94F-462A-B816-560DC4096E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65166FA-41BA-4958-9864-EA76DE12003A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65166FA-41BA-4958-9864-EA76DE12003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65166FA-41BA-4958-9864-EA76DE12003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65166FA-41BA-4958-9864-EA76DE12003A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
