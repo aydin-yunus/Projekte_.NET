@@ -69,7 +69,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenderizeIOForm_14.03", "Ge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services - 01 - Feiertage_15.03", "Services - 01 - Feiertage_15.03\Services - 01 - Feiertage_15.03.csproj", "{663803EE-D94F-462A-B816-560DC4096E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tupel - 01 - Grundlagen_15.03", "Tupel - 01 - Grundlagen_15.03\Tupel - 01 - Grundlagen_15.03.csproj", "{D65166FA-41BA-4958-9864-EA76DE12003A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tupel - 01 - Grundlagen_15.03", "Tupel - 01 - Grundlagen_15.03\Tupel - 01 - Grundlagen_15.03.csproj", "{D65166FA-41BA-4958-9864-EA76DE12003A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services - 03 - Warenkatalog_15.03", "Services - 03 - Warenkatalog_15.03\Services - 03 - Warenkatalog_15.03.csproj", "{EE30877E-65F8-4BCB-A9F7-DE51B235D1B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PunkteProjekt_TESTING_16.03", "PunkteProjekt_TESTING_16.03\PunkteProjekt_TESTING_16.03.csproj", "{1EEB5122-2A2A-4DD6-9A8E-E5A598F950BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoObjectTest", "GeoObjectTest\GeoObjectTest.csproj", "{85130753-4E57-4FD6-AB65-FFC787DCDBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest - 01 - Gross Klein_TEST_16.03", "UnitTest - 01 - Gross Klein_TEST_16.03\UnitTest - 01 - Gross Klein_TEST_16.03.csproj", "{EAAD686F-C4B0-474C-A631-BCA8D6A70FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest - 01 - Gross Klein_GEOTest", "UnitTest - 01 - Gross Klein_GEOTest\UnitTest - 01 - Gross Klein_GEOTest.csproj", "{E5F0179F-2C9A-46B1-A342-019D0AE3E27D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +223,26 @@ Global
 		{D65166FA-41BA-4958-9864-EA76DE12003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65166FA-41BA-4958-9864-EA76DE12003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D65166FA-41BA-4958-9864-EA76DE12003A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE30877E-65F8-4BCB-A9F7-DE51B235D1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE30877E-65F8-4BCB-A9F7-DE51B235D1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE30877E-65F8-4BCB-A9F7-DE51B235D1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE30877E-65F8-4BCB-A9F7-DE51B235D1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEB5122-2A2A-4DD6-9A8E-E5A598F950BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEB5122-2A2A-4DD6-9A8E-E5A598F950BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEB5122-2A2A-4DD6-9A8E-E5A598F950BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEB5122-2A2A-4DD6-9A8E-E5A598F950BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85130753-4E57-4FD6-AB65-FFC787DCDBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85130753-4E57-4FD6-AB65-FFC787DCDBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85130753-4E57-4FD6-AB65-FFC787DCDBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85130753-4E57-4FD6-AB65-FFC787DCDBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAD686F-C4B0-474C-A631-BCA8D6A70FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAD686F-C4B0-474C-A631-BCA8D6A70FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAD686F-C4B0-474C-A631-BCA8D6A70FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAD686F-C4B0-474C-A631-BCA8D6A70FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F0179F-2C9A-46B1-A342-019D0AE3E27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F0179F-2C9A-46B1-A342-019D0AE3E27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F0179F-2C9A-46B1-A342-019D0AE3E27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F0179F-2C9A-46B1-A342-019D0AE3E27D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
