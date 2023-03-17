@@ -87,9 +87,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PunkteProjekt_TESTING_16.03
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03", "UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03", "{46212613-42B4-44FF-B7C1-A26F34D241D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03", "UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03\UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03.csproj", "{A8574DBC-1802-4CF3-BF53-A5E7E9A30C26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03", "UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03\UnitTest - 03 - Winkel zwischen Uhrzeigern_16.03.csproj", "{A8574DBC-1802-4CF3-BF53-A5E7E9A30C26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOfit", "TestOfit\TestOfit.csproj", "{CAE42893-391D-4917-8285-B0B53A0B57C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOfit", "TestOfit\TestOfit.csproj", "{CAE42893-391D-4917-8285-B0B53A0B57C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub_ZahlenUmtausch_17.03", "GitHub_ZahlenUmtausch\GitHub_ZahlenUmtausch_17.03.csproj", "{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{CAE42893-391D-4917-8285-B0B53A0B57C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAE42893-391D-4917-8285-B0B53A0B57C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAE42893-391D-4917-8285-B0B53A0B57C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

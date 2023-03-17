@@ -58,59 +58,59 @@ namespace LINQ___01___Filter_Operationen_aamp__Aggregationen_06._03._23
 
             #region Aufgabe 1.2
 
-            //var drei_Zeichen = numberss.Where(x => x.Length<4);
-            //foreach (string item in drei_Zeichen)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            var drei_Zeichen = numberss.Where(x => x.Length < 4);
+            foreach (string item in drei_Zeichen)
+            {
+                Console.WriteLine(item);
+            }
 
-            //var enthalten_o= numberss.Where(x => x.Contains('o'));
-            //foreach (string o in enthalten_o)
-            //{
-            //    Console.WriteLine(o);
-            //}
+            var enthalten_o = numberss.Where(x => x.Contains('o'));
+            foreach (string o in enthalten_o)
+            {
+                Console.WriteLine(o);
+            }
 
-            //var endet_Teen = numberss.Where(x => Regex.IsMatch(x, @"teen"));
-            //foreach (string t in endet_Teen)
-            //{
-            //    Console.WriteLine(t);
-            //}
+            var endet_Teen = numberss.Where(x => Regex.IsMatch(x, @"teen"));
+            foreach (string t in endet_Teen)
+            {
+                Console.WriteLine(t);
+            }
 
-            //var teen_Groß = numberss.Where(x => Regex.IsMatch(x, @"teen"));
-            //foreach (string item in teen_Groß)
-            //{
-            //    Console.WriteLine(item.ToUpper());
-            //}
+            var teen_Groß = numberss.Where(x => Regex.IsMatch(x, @"teen"));
+            foreach (string item in teen_Groß)
+            {
+                Console.WriteLine(item.ToUpper());
+            }
 
-            //var inhaltFour = numberss.Where(x => x.Contains("four"));
-            //foreach (string item in inhaltFour)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            var inhaltFour = numberss.Where(x => x.Contains("four"));
+            foreach (string item in inhaltFour)
+            {
+                Console.WriteLine(item);
+            }
 
             #endregion
 
             #region Aufgabe 1.3
-            //var Summe = numbers.Sum();
-            //Console.WriteLine(Summe);
+            var Summe = numbers.Sum();
+            Console.WriteLine(Summe);
 
-            //var kleinste = numbers.Min();
-            //Console.WriteLine(kleinste);
+            var kleinste = numbers.Min();
+            Console.WriteLine(kleinste);
 
-            //var grösste=numbers.Max();
-            //Console.WriteLine(grösste);
+            var grösste = numbers.Max();
+            Console.WriteLine(grösste);
 
-            //var durchschnitt = numbers.Average();
-            //Console.WriteLine(durchschnitt);
+            var durchschnitt = numbers.Average();
+            Console.WriteLine(durchschnitt);
 
-            //var geradeKleinste = numbers.Where(x => x % 2 == 0);
-            //Console.WriteLine(geradeKleinste.Min());
+            var geradeKleinste = numbers.Where(x => x % 2 == 0);
+            Console.WriteLine(geradeKleinste.Min());
 
-            //var ungeradeGrösste = numbers.Where(x => x % 2 != 0);
-            //Console.WriteLine(ungeradeGrösste.Max());
+            var ungeradeGrösste = numbers.Where(x => x % 2 != 0);
+            Console.WriteLine(ungeradeGrösste.Max());
 
-            //var summeGerade=numbers.Where(x => x%2==0);
-            //Console.WriteLine(summeGerade.Sum());
+            var summeGerade = numbers.Where(x => x % 2 == 0);
+            Console.WriteLine(summeGerade.Sum());
 
             var ungeradeDurcschnitt = numbers.Where(x => x % 2 != 0).Average();
             Console.WriteLine(ungeradeDurcschnitt);
