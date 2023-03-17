@@ -8,6 +8,7 @@ namespace PunkteProjekt_TESTING_16._03.GeoObjects
 {
     public class Point2D
     {
+        
         public int X { get; set; }
         public int Y { get; set; }
         public Point2D() {X=Y=0;}

@@ -32,10 +32,10 @@ namespace GeoObjectTest
             Point2D point = new Point2D(3, 7);
 
             //Act
-            point.Move(5, 4);
+            point.Move(4, 4);
 
             //Assert
-            Assert.Equal(8, point.X);
+            Assert.Equal(7, point.X);
             Assert.Equal(11, point.Y);
 
         }
