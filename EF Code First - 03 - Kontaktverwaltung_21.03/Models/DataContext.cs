@@ -18,7 +18,7 @@ namespace EF_Code_First___03___Kontaktverwaltung_21._03.Models
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer(@"Server=PC0337;Database = KontaktDB;Integrated Security=True;Encrypt=False");
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer(@"Server=YUNUS;Database = KontaktDB;Integrated Security=True;Encrypt=False");
         }
     }
 }

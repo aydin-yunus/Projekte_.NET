@@ -27,7 +27,7 @@ namespace EF_Code_First___01___Warenlager_20._03
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=PC0471;Database=WareHouseDB;Integrated Security=True;");
+            optionsBuilder.UseSqlServer(@"Server=YUNUS;Database=WareHouseDB;Integrated Security=True;");
         }
 
         public void Dateieinlesen()
