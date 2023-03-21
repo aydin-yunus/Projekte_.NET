@@ -8,18 +8,22 @@ namespace EF_Code_First___02___Schneckenrennen_20._03
 {
     public class Rennschnecke
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public int MaxSpeed { get; set; }
-        public int Distance { get; set; }
+        public int Id { get; set; }
+
+        private static readonly Random zufallszahlenGenerator = new Random();
+
+        public string Name { get; set; }
+        public int Distanz { get; set; }
+        public int MaximalGeschwindigkeit { get; set; }
+
         public void Krieche()
         {
-            Random rnd = new Random();
-            Distance += rnd.Next(1, MaxSpeed);
+            Distanz += zufallszahlenGenerator.Next(1, MaximalGeschwindigkeit);
         }
+
         public override string ToString()
         {
-            return string.Format($"Name: {name}\tSpeed: {MaxSpeed}\t Strecke:{Distance}");
+            return string.Format("Name: {0}\t Speed: {1} Zurückgelegte Strecke: {2} cm", Name, MaximalGeschwindigkeit, Distanz);
         }
     }
 }
