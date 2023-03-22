@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generics___03___Baeume_22._03.Models
 {
-    public interface IBinaryTree<T> where T : IComparable<T>
+    interface IBinaryTree<T> where T : IComparable<T>
     {
         void Clear();
         void Insert(T value);

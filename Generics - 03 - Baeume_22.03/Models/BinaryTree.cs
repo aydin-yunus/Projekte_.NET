@@ -13,7 +13,7 @@ namespace Generics___03___Baeume_22._03.Models
 
         public void Clear()
         {
-            
+            this.rootNode = null; 
         }
 
         public bool Contains(T value)
@@ -28,7 +28,14 @@ namespace Generics___03___Baeume_22._03.Models
 
         public void Insert(T value)
         {
-            
+            if (rootNode==null)
+            {
+                rootNode = new BinaryTreeNode<T>(value);
+            }
+            else
+            {
+                InsertNode(rootNode, new BinaryTreeNode<T>(value));
+            }
         }
 
         public void PrintInorder()
