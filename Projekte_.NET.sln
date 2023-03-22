@@ -93,6 +93,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOfit", "TestOfit\TestOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub_ZahlenUmtausch_17.03", "GitHub_ZahlenUmtausch\GitHub_ZahlenUmtausch_17.03.csproj", "{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics - 03 - Baeume_22.03", "Generics - 03 - Baeume_22.03\Generics - 03 - Baeume_22.03.csproj", "{16FE2EA0-CE35-488C-9367-706EB4B6C3C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FE2EA0-CE35-488C-9367-706EB4B6C3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FE2EA0-CE35-488C-9367-706EB4B6C3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FE2EA0-CE35-488C-9367-706EB4B6C3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FE2EA0-CE35-488C-9367-706EB4B6C3C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
