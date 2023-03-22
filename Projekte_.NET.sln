@@ -93,12 +93,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOfit", "TestOfit\TestOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub_ZahlenUmtausch_17.03", "GitHub_ZahlenUmtausch\GitHub_ZahlenUmtausch_17.03.csproj", "{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Code First - 01 - Warenlager_20.03", "EF Code First - 01 - Warenlager_20.03\EF Code First - 01 - Warenlager_20.03.csproj", "{F21FB90B-CCB9-4284-924B-FB480F1852F1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Code First - 02 - Schneckenrennen_20.03", "EF Code First - 02 - Schneckenrennen_20.03\EF Code First - 02 - Schneckenrennen_20.03.csproj", "{DB04AF4B-8E02-4D4B-92DB-35F0359C8BF6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Code First - 03 - Kontaktverwaltung_21.03", "EF Code First - 03 - Kontaktverwaltung_21.03\EF Code First - 03 - Kontaktverwaltung_21.03.csproj", "{EBEF2029-6A73-4C03-8234-B809EC3D1D86}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,18 +267,6 @@ Global
 		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F21FB90B-CCB9-4284-924B-FB480F1852F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F21FB90B-CCB9-4284-924B-FB480F1852F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F21FB90B-CCB9-4284-924B-FB480F1852F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F21FB90B-CCB9-4284-924B-FB480F1852F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB04AF4B-8E02-4D4B-92DB-35F0359C8BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB04AF4B-8E02-4D4B-92DB-35F0359C8BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB04AF4B-8E02-4D4B-92DB-35F0359C8BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB04AF4B-8E02-4D4B-92DB-35F0359C8BF6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBEF2029-6A73-4C03-8234-B809EC3D1D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBEF2029-6A73-4C03-8234-B809EC3D1D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBEF2029-6A73-4C03-8234-B809EC3D1D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBEF2029-6A73-4C03-8234-B809EC3D1D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
