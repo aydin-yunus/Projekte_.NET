@@ -31,7 +31,6 @@ namespace Regex___01___Froschkönig_27._02
             //drei_Buchstabe.DreiBuchstabe();
 
 
-
             //DerDieDas derDieDas = new DerDieDas();
             //derDieDas.Der_Die_Das();
 
