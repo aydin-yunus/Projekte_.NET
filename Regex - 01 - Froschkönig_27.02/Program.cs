@@ -13,6 +13,7 @@ namespace Regex___01___Froschkönig_27._02
     {
         static void Main(string[] args)
         {
+
             //Umlaut_Finder umlaut_Find = new Umlaut_Finder();
             //umlaut_Find.Read_Find();
             //der_Anfange der_Anfange = new der_Anfange();
