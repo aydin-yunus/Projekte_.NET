@@ -30,7 +30,7 @@ namespace Generics___03___Baeume
         }
         private void InsertNode(BinaryTreeNode<T> node, BinaryTreeNode<T> nodeToInsert)
         {
-            if (node.Data.CompareTo(nodeToInsert.Data) == 1)
+            if (node.Value.CompareTo(nodeToInsert.Value) == 1)
             {
                 if (node.Left == null)
                 {
@@ -65,13 +65,13 @@ namespace Generics___03___Baeume
         {
             if (node != null)
             {
-                if (Equals(node.Data, value))
+                if (Equals(node.Value, value))
                 {
                     return node;
                 }
                 else
                 {
-                    if (node.Data.CompareTo(value) == 1)
+                    if (node.Value.CompareTo(value) == 1)
                     {
                         previousNode = node;
                         return Search(value, node.Left);
@@ -98,7 +98,7 @@ namespace Generics___03___Baeume
             if (node != null)
             {
                 PrintInorder(node.Left);
-                Console.WriteLine(node.Data);
+                Console.WriteLine(node.Value);
                 PrintInorder(node.Right);
             }
         }
@@ -117,7 +117,7 @@ namespace Generics___03___Baeume
                     }
                     else
                     {
-                        bool currentNodeIsLeftNode = nodeToDelete.Data.CompareTo(previousNode.Data) == -1;
+                        bool currentNodeIsLeftNode = nodeToDelete.Value.CompareTo(previousNode.Value) == -1;
                         if (currentNodeIsLeftNode)
                         {
                             previousNode.Left= nodeToDelete.Left;
