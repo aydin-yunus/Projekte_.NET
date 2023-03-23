@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOfit", "TestOfit\TestOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub_ZahlenUmtausch_17.03", "GitHub_ZahlenUmtausch\GitHub_ZahlenUmtausch_17.03.csproj", "{251D1B2D-A7AD-4B53-8C67-7093BC34C53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics - 03 - Baeume", "Generics - 03 - Baeume\Generics - 03 - Baeume.csproj", "{A2AFB522-F75D-4D5D-BA3C-9330C4A56C30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics - 03 - Baeume", "Generics - 03 - Baeume\Generics - 03 - Baeume.csproj", "{A2AFB522-F75D-4D5D-BA3C-9330C4A56C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ - 05 - Bestellung_23.03", "LINQ - 05 - Bestellung_23.03\LINQ - 05 - Bestellung_23.03.csproj", "{D332190D-3642-4C00-BD99-C02EAB6FBE7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{A2AFB522-F75D-4D5D-BA3C-9330C4A56C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2AFB522-F75D-4D5D-BA3C-9330C4A56C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2AFB522-F75D-4D5D-BA3C-9330C4A56C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D332190D-3642-4C00-BD99-C02EAB6FBE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D332190D-3642-4C00-BD99-C02EAB6FBE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D332190D-3642-4C00-BD99-C02EAB6FBE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D332190D-3642-4C00-BD99-C02EAB6FBE7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

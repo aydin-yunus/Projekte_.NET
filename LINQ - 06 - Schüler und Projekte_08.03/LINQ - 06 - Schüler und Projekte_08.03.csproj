@@ -53,5 +53,9 @@
     <None Include="App.config" />
     <None Include="LINQ - 06 - Schueler aamp%3b Projekte.pdf" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Projekte.txt" />
+    <Content Include="Schueler.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

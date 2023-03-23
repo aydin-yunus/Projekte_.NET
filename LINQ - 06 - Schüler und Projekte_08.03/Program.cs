@@ -10,7 +10,7 @@ namespace LINQ___06___Schüler_und_Projekte_08._03
     {
         static void Main(string[] args)
         {
-            Dictionary<int, Pupil> allPupils = Repository.LoadPupilData("Schüler.txt");
+            Dictionary<int, Pupil> allPupils = Repository.LoadPupilData(@"D:\TestOrdner\Schueler.txt");
 
             Console.WriteLine("Alle Schüler:");
 
@@ -19,7 +19,7 @@ namespace LINQ___06___Schüler_und_Projekte_08._03
                 Console.WriteLine(item.Value);
             }
 
-            Dictionary<string, Project> allProjects = Repository.LoadProjectData("Projekte.txt", allPupils);
+            Dictionary<string, Project> allProjects = Repository.LoadProjectData(@"D:\TestOrdner\Projekte.txt", allPupils);
 
             Console.WriteLine();
             Console.WriteLine("Alle Projekte:");
