@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Regex - 01 - Froschkönig_27.02/Program.cs
+/.gitignore
+/.gitignore
