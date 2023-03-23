@@ -46,7 +46,7 @@ namespace Regex___01___Froschkönig_27._02
             List<string> list = new List<string>();
             int index = 0;
             int zähler = 0;
-            string path = "D:\\TestOrdner\\Froschkönig Unix Zeilenumbrüche.txt";
+            string path = @"D:\TestOrdner\Froschkönig Unix Zeilenumbrüche.txt";
             StreamReader sr = new StreamReader(path);
             while (!sr.EndOfStream)
             {
@@ -59,15 +59,6 @@ namespace Regex___01___Froschkönig_27._02
                     Console.WriteLine($"{zähler}- Index:{index} {zeile}");
                 }
             }
-
-            ////Ohne index nummer
-
-            //foreach (string zeile in list)
-            //{
-            //    Console.WriteLine($"{index}:{zeile}");
-            //}
-            //Console.WriteLine($"Insgesamt in {index} Zeilen");
-
         }
     }
     class der_Anfange
