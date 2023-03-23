@@ -36,7 +36,6 @@ namespace Regex___01___Froschkönig_27._02
 
             Console.ReadLine();
         }
-
     }
     class Umlaut_Finder
     {
